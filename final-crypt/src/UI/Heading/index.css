@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+.heading--1 {
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+}
+.heading--2 {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+}
+.heading--3 {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.heading--4 {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.heading--5 {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+.heading--6 {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14px;
+}

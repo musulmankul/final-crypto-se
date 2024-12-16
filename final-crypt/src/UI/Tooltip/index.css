@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+.tooltip {
+  position: relative;
+}
+
+.tooltip-text {
+  visibility: hidden;
+  background-color: #006fee;
+  color: #fff;
+  text-align: center;
+  border-radius: 10px;
+  position: absolute;
+  z-index: 1;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.tooltip--top .tooltip-text {
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+.tooltip--left .tooltip-text {
+  top: 50%;
+  right: 100%;
+  margin-top: -15px;
+}
+.tooltip--right .tooltip-text {
+  top: 50%;
+  left: 100%;
+  margin-top: -15px;
+}
+.tooltip--bottom .tooltip-text {
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip:hover .tooltip-text {
+  visibility: visible;
+}

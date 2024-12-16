@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+.input-wrapper {
+  width: 300px;
+  height: 60px;
+}
+.input-label {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.input-field {
+  width: 300px;
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid #006fee;
+  background: white;
+  background: white;
+  border-color: #a0a0a0;
+  color: black;
+}
+.input-label--disabled {
+  color: #000000;
+}
+
+.input-field--disabled {
+  cursor: not-allowed;
+}
+.input-field--danger{
+    border-color: red;
+    color: red;
+}
+.input-label--danger {
+    color: red;
+  }
+
+
+  .input-field:focus  {
+  outline: none;
+  border-color: #006fee;
+}
+.input-wrapper:focus-within .input-label{
+    color: #006fee;
+}

@@ -1,0 +1,10 @@
+body{
+  display: flex;
+  justify-content: center;
+}
+.coin-container{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 702px;
+}
