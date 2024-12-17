@@ -1,14 +1,15 @@
 import "../Button/index.css";
+
 function Button(props) {
   const {
     size = "md",
     variant = "primary",
     type = "button",
     onClick,
-    disabled = "abled",
+    disabled = false,
     children,
   } = props;
-  const className = `my-button my-button--${variant} my-button--${size} my-button--${type} my-button--${onClick} my-button--${disabled}`;
+  const className = `my-button my-button--${variant} my-button--${size} my-button--${type} my-button--${disabled}`;
 
   return (
     <button
